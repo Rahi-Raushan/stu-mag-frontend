@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // API Configuration
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001/api';
 
 console.log('API Base URL:', API_BASE_URL);
 
@@ -89,6 +89,11 @@ export const requestAPI = {
   getAllRequests: () => api.get('/requests'),
   approveRequest: (requestId) => api.put(`/request/${requestId}/approve`),
   rejectRequest: (requestId) => api.put(`/request/${requestId}/reject`),
+};
+
+// Analytics API
+export const analyticsAPI = {
+  getStats: () => api.get('/analytics'),
 };
 
 // Health check

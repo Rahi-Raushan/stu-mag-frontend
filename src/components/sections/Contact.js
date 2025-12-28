@@ -10,8 +10,8 @@ const Contact = () => {
             <h3>Address</h3>
             <p>
               Rungta International Skills University<br />
-              Knowledge Park, Bhilai<br />
-              Chhattisgarh - 490020<br />
+              Bhilai Chhattisgarh<br />
+              Chhattisgarh - 490024<br />
               India
             </p>
           </div>
@@ -22,8 +22,8 @@ const Contact = () => {
           </div>
           <div className="contact-item">
             <h3>Phone</h3>
-            <p>+91 788 123 4567</p>
-            <p>+91 788 765 4321</p>
+            <p>9016-224444</p>
+            <p>+91 9016225555</p>
           </div>
         </div>
       </div>
